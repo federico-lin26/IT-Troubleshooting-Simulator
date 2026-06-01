@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IT Support Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- HOME -->
+    <div id="home">
+      <h1>IT Support Simulator</h1>
+      <p>Step-by-step troubleshooting for common IT issues</p>
+      <button id="startBtn">Start Troubleshooting</button>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div id="categories" class="hidden">
+      <h2>Choose a category</h2>
+
+      <div class="card" data-cat="network">🌐 Network & Connectivity</div>
+      <div class="card" data-cat="device">💻 Device & Hardware</div>
+      <div class="card" data-cat="accounts">🔐 Accounts & Access</div>
+      <div class="card" data-cat="apps">🧑‍💼 Applications & Software</div>
+
+      <button id="backBtnCategories">⬅ Back</button>
+    </div>
+
+    <!-- SUPPORT DASHBOARD -->
+    <div id="supportLayout" class="hidden">
+
+      <div id="troubleshoot">
+        <h2 id="questionText"></h2>
+        <div id="options"></div>
+
+        <button id="backBtn">⬅ Back</button>
+      </div>
+
+      <div id="logPanel">
+        <h3>Activity Log</h3>
+        <div id="logBox"></div>
+      </div>
+
+    </div>
+
+    <!-- RESULT -->
+    <div id="result" class="hidden">
+      <h2>Diagnosis</h2>
+      <div id="resultText"></div>
+
+      <button id="backBtnResult">⬅ Back</button>
+      <button id="reportBtn">Generate Incident Report</button>
+      <button id="restartBtn">Restart</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

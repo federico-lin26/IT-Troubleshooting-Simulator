@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  margin: 0;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* buttons */
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* cards */
+.card {
+  background: white;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* layout */
+#supportLayout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+#troubleshoot {
+  flex: 2;
+}
+
+#logPanel {
+  flex: 1;
+  position: sticky;
+  top: 20px;
+
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+#logBox div {
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #374151;
+}
+
+#options button {
+  display: block;
+  margin-top: 10px;
+  background: white;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+}
+
+#options button:hover {
+  background: #f3f4f6;
+}
+
+@media (max-width: 800px) {
+  #supportLayout {
+    flex-direction: column;
+  }
+}
+
+#finalActions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: flex-start;
+}

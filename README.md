@@ -10,7 +10,7 @@ The application uses decision-tree logic to replicate the process followed by IT
 
 🌐 **Live Demo**
 
-[IT Troubleshooting Simulator](https://your-link-here)
+[IT Troubleshooting Simulator](https://federico-lin26.github.io/IT-Troubleshooting-Simulator/)
 
 ---
 

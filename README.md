@@ -65,9 +65,7 @@ IT-Troubleshooting-Simulator/
 │
 ├── index.html
 ├── style.css
-├── script.js
-│
-└── assets/
+└── script.js
 ```
 
 ---

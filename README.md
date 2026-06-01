@@ -78,4 +78,4 @@ This project was developed to demonstrate fundamental IT support workflows, trou
 
 **License**
 
-© 2026 LILLO. All rights reserved. You may view the code, but copying, modifying, or redistributing without permission is prohibited.
+© 2026 IT Troubleshooting Simulator. All rights reserved. You may view the code, but copying, modifying, or redistributing without permission is prohibited.
